@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Life Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Page Header with Theme Toggle -->
+  <header class="page-header">
+    <h1 class="page-title">Life Dashboard</h1>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark theme">
+      🌓 Toggle Theme
+    </button>
+  </header>
+
+  <!-- Main Dashboard Grid -->
+  <main class="dashboard-grid">
+
+    <!-- Greeting Widget -->
+    <section class="widget" id="greeting-widget" aria-labelledby="greeting-heading">
+      <h2 id="greeting-heading" class="widget-title">Greeting</h2>
+      <div class="greeting-content">
+        <p id="greeting-message" class="greeting-message" aria-live="polite"></p>
+        <p id="greeting-date" class="greeting-date" aria-live="polite"></p>
+        <p id="greeting-time" class="greeting-time" aria-live="polite"></p>
+      </div>
+      <div class="greeting-name-form">
+        <label for="greeting-name-input" class="form-label">Your Name</label>
+        <div class="form-row">
+          <input
+            type="text"
+            id="greeting-name-input"
+            class="text-input"
+            placeholder="Enter your name"
+            maxlength="100"
+            aria-label="Your name for the greeting"
+          />
+          <button id="greeting-name-save" class="btn btn-primary">Save</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Focus Timer Widget -->
+    <section class="widget" id="timer-widget" aria-labelledby="timer-heading">
+      <h2 id="timer-heading" class="widget-title">Focus Timer</h2>
+      <div class="timer-content">
+        <div id="timer-display" class="timer-display" aria-live="polite" aria-label="Timer display">25:00</div>
+        <div class="timer-controls">
+          <button id="timer-start" class="btn btn-primary" aria-label="Start timer">▶ Start</button>
+          <button id="timer-stop" class="btn btn-secondary" aria-label="Stop timer">⏸ Stop</button>
+          <button id="timer-reset" class="btn btn-secondary" aria-label="Reset timer">↺ Reset</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Task Manager Widget -->
+    <section class="widget" id="task-widget" aria-labelledby="task-heading">
+      <h2 id="task-heading" class="widget-title">Task Manager</h2>
+      <div class="task-add-form">
+        <label for="task-input" class="form-label">New Task</label>
+        <div class="form-row">
+          <input
+            type="text"
+            id="task-input"
+            class="text-input"
+            placeholder="Add a new task…"
+            maxlength="500"
+            aria-label="New task description"
+          />
+          <button id="task-add-btn" class="btn btn-primary" aria-label="Add task">Add</button>
+        </div>
+        <p id="task-error" class="error-message" role="alert" aria-live="assertive"></p>
+      </div>
+      <ul id="task-list" class="task-list" aria-label="Task list"></ul>
+    </section>
+
+    <!-- Quick Links Widget -->
+    <section class="widget" id="links-widget" aria-labelledby="links-heading">
+      <h2 id="links-heading" class="widget-title">Quick Links</h2>
+      <div class="links-add-form">
+        <div class="form-group">
+          <label for="link-label-input" class="form-label">Label</label>
+          <input
+            type="text"
+            id="link-label-input"
+            class="text-input"
+            placeholder="e.g. Google"
+            maxlength="50"
+            aria-label="Link label"
+          />
+          <p id="link-label-error" class="error-message" role="alert" aria-live="assertive"></p>
+        </div>
+        <div class="form-group">
+          <label for="link-url-input" class="form-label">URL</label>
+          <input
+            type="url"
+            id="link-url-input"
+            class="text-input"
+            placeholder="https://example.com"
+            maxlength="2048"
+            aria-label="Link URL"
+          />
+          <p id="link-url-error" class="error-message" role="alert" aria-live="assertive"></p>
+        </div>
+        <button id="link-add-btn" class="btn btn-primary" aria-label="Add link">Add Link</button>
+      </div>
+      <div id="links-list" class="links-list" aria-label="Quick links list"></div>
+    </section>
+
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

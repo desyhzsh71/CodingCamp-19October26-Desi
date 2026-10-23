@@ -1,0 +1,326 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Create project file structure and HTML skeleton": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675771950
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675789366
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675908014
+      }
+    ],
+    "2.1 Implement `StorageHelper` in `js/app.js`": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675774386
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675913567
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676068088
+      }
+    ],
+    "2.2 Write base CSS layout in `css/styles.css`": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675775216
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675919489
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676074319
+      }
+    ],
+    "3.1 Implement `ThemeController` in `js/app.js`": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675775374
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676080666
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676294765
+      }
+    ],
+    "3.2 Add CSS theme variables to `css/styles.css`": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675775532
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676088161
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676300538
+      }
+    ],
+    "4.1 Extract pure helper functions `getGreeting(hour)` and `formatTime(date)`": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675775783
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676093968
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676307126
+      }
+    ],
+    "4.2 Implement `GreetingController.init()` and `tick()`": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675776027
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676637801
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792678605133
+      }
+    ],
+    "4.3 Implement `GreetingController.saveName()` and name input wiring": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675776156
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792678655124
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792678727664
+      }
+    ],
+    "5.1 Extract pure helper `formatTimer(seconds)`": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675776326
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676100473
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676313430
+      }
+    ],
+    "5.2 Implement `TimerController` state machine (`init`, `start`, `stop`, `reset`, `countdown`, `render`)": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675776541
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676647309
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792678625437
+      }
+    ],
+    "6.1 Extract pure helper `validateTask(text, currentId?)`": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675776738
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676107836
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676319387
+      }
+    ],
+    "6.2 Implement `TaskController` (`init`, `add`, `edit`, `toggleComplete`, `remove`, `render`)": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675776948
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676654611
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792678632653
+      }
+    ],
+    "7.1 Extract pure helper `validateLink(label, url)`": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675777114
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676114269
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676631428
+      }
+    ],
+    "7.2 Implement `LinkController` (`init`, `add`, `remove`, `render`)": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675777279
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676663425
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792678645065
+      }
+    ],
+    "8.1 Implement `init()` bootstrap function in `js/app.js`": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675777505
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792678734425
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792679121072
+      }
+    ],
+    "8.2 Complete CSS styling for all widget states": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792675777685
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792678741019
+      },
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792679128444
+      }
+    ],
+    "2. Implement StorageHelper and base CSS layout": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676074542
+      }
+    ],
+    "3. Implement ThemeController": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792676300749
+      }
+    ],
+    "5. Implement TimerController": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792678625563
+      }
+    ],
+    "6. Implement TaskController": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792678632769
+      }
+    ],
+    "7. Implement LinkController": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792678645219
+      }
+    ],
+    "4. Implement GreetingController": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792678727765
+      }
+    ],
+    "8. Wire everything together in `init()` and complete CSS": [
+      {
+        "executionId": "2fd44e13-4dc8-415f-b5a9-0893eb8ffcee",
+        "chatSessionId": "sess_472faa25-835b-42e8-8ad6-31034b88f19b",
+        "timestamp": 1792679128582
+      }
+    ]
+  }
+}
